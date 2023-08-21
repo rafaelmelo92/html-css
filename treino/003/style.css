@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+
+}
+
+.head{
+    text-align: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #F2C185;
+    padding: 10px;
+    border: 1px solid rgb(84, 32, 32);
+
+    
+}
+
+.head > img {
+    text-align: right;
+    height: 25px;
+    width: 25px;
+}
+
+div {
+    text-align: center;
+
+}
+
+hr {
+    color: rgb(84, 32, 32);
+}
+
+img.logo {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+}
+
+img{
+    text-align: center;
+}
+    
+
+#principal {
+    font-size: 4em;
+    font-family: 'cafe francoise', sans-serif;
+    text-align: center;
+}
+
+.menu {
+    text-indent: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.menu:hover{
+    color: rgb(71, 71, 135);
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Lumanosimo';
+}
+
+h2{
+    font-family: 'Lumanosimo';
+    font-size: 2em;
+}
+
+h2:hover{
+    text-decoration: underline ;
+}
+
+main {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color:#F2EBD5;
+    padding: 10px;
+    margin-right: 4.5%;
+    border: 1px solid #8C5954;
+}

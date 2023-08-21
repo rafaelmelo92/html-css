@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color:#2e0101fb;
+    box-shadow: 5px 5px 5px rgba(12, 0, 0, 0.651) ;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+body{
+    
+    
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#2e0101fb ;
+}
+
+h2{
+font-family:'alice',serif ;
+font-size: 3em;
+}
+
