@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Eldes Cordel';
+    src: url('../fontes/EldesCordel-Demo.otf') format('opentype');
+}
+
+:root {
+    --cor1:#F2CC0F;
+    --cor2:#F2CEA2;
+    --cor3:#BF7534;
+    --cor4:#552a11;
+    --cor5:#0D0D0D;
+
+    --fonte-cordel:'Eldes Cordel', cursive, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.877));
+    color: white;
+}
+
+header > h1 {
+    font-family: var(--fonte-cordel);
+    font-size: 5em;
+    color: var(--cor1);
+    text-align: center;
+    padding: 20px;
+}
+
+header > p {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+body {
+    background-color: white;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px var(--cor5);
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: var(--cor3);
+    text-shadow: 1px 1px 1px var(--cor5);
+}
+
+section.normal {
+    background-color: var(--cor2);
+    text-align: center;
+    margin: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid var(--cor5);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+
+section.normal > h2 {
+    margin: 10px;
+    color: var(--cor5);
+    
+}
+
+section.normal > p {
+    color: var(--cor5);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.6em;
+  
+}
+
+section.imagem {
+    background-color: rgba(255, 255, 255, 0.568);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.562);
+    background-attachment: fixed;
+    
+}
+
+section.imagem > h2,h3 {
+   margin: 15px;
+   padding: 15px;
+
+}
+
+section.imagem > p {
+ display: inline-block;
+ background-color: var(--cor5);
+}
+
+#petiscos {
+    background-image: url(../imagens/pexels-pascal-claivaz-410648.jpg);
+    background-size: cover;
+}
+
+#bebidas {
+    background-image: url(../imagens/pexels-edward-eyer-667986.jpg);
+    background-size: cover;
+}
